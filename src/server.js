@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }))
  * Routes
  */
 
-app.use('/api', reqire('./routes/api'))
+app.use('/api', require('./routes/api'))
 
 
 app.listen(port, () => {
